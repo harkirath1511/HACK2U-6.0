@@ -5,7 +5,7 @@ import App from './App.jsx'
 import Login from './pages/templates/login.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+ 
     <App />
-  </StrictMode>,
+
 )
