@@ -5,7 +5,8 @@ import App from './App.jsx'
 import Login from './pages/templates/login.jsx'
 
 createRoot(document.getElementById('root')).render(
- 
-    <App />
+    <div className="no-scrollbar overflow-y-scroll h-screen">
 
+    <App />
+</div>
 )
